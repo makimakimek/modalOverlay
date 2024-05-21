@@ -1,0 +1,33 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#showOfferButton {
+    position: fixed;
+}
+
+#offerBox {
+    display: none;
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+}
+
+#offerAndButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    width: inherit;
+    gap: 50px;
+}
+
+#offerAccepted {
+    display: none;
+}
